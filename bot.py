@@ -156,7 +156,7 @@ def start_message(message):
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("📢 Join Our Channel", url=f"https://t.me/{channel.replace('@', '')}"))
             markup.add(InlineKeyboardButton("✅ Verify", callback_data="verify_sub"))
-            bot.send_message(user_id, "⚠️ **সার্ভিসটি ব্যবহার করতে আমাদের চ্যানেলে যুক্ত হোন!**\nচ্যানেলে যুক্ত হওয়ার পর 'Verify' বাটনে ক্লিক করুন।", parse_mode="Markdown", reply_markup=markup)
+            bot.send_message(user_id, "⚠️ **সার্ভিসটি ব্যবহার করতে আমাদের চ্যানেলে যুক্ত হোন!*\nচ্যানেলে যুক্ত হওয়ার পর 'Verify' বাটনে ক্লিক করুন।", parse_mode="Markdown", reply_markup=markup)
             return
 
         increment_stat("total_users")
