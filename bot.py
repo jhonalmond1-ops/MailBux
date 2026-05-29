@@ -17,7 +17,7 @@ from threading import Thread
 from mailtd import MailTD
 
 # --- কনফিগারেশন ---
-BOT_TOKEN = "8705131481:AAF8TnG9nx1U-BZz0nXYP_jxtSWNeSQPbYY"
+BOT_TOKEN = "8705131481:AAGVVwDR9Y5ZhxcpifIPQYTE6Kw2rpMo4Vo"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # অ্যাডমিন ও ডেভেলপার সেপারেশন
